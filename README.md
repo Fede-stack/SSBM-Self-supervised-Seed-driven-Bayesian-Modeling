@@ -1,1 +1,1 @@
-# SSBM-Self-supervised-Seed-driven-Bayesian-Modeling
+# SSBM - Self-supervised Seed-driven Bayesian-Modeling
