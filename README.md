@@ -18,5 +18,23 @@ This code repository is related to the paper *A Self-Supervised Seed-driven Appr
 
 - `sel_mod`: Model selection. Three models are considered, but additional models can be easily integrated. Random Forest and Neural Network models generally perform best.
 
+```python 
+ssbm = SSBM(docs, n_topics = n_topics)
+predictions, topic_representations, coherence_npmi, coherence_uci, coherence_cv, coherence_div, prediction_clusters = ssbm.train(N=N, p=p, d=d, W=W, c=c, sel_mod=sel_mod)
+ssbm.plot_topics(topic_representations)
+```
+
+# TP: TopicPropagation
+
+<img src="https://github.com/Fede-stack/SSBM-Self-supervised-Seed-driven-Bayesian-Modeling/blob/main/images/otter.png" alt="" width="300">
+
+To combine both the power of BERT Representations with Topic Representation, TopicPropagation implementation can be easily implemented:
+
+```python 
+predictions_tp = TopicPropagation(model_name = 'all-miniLM-L6-v2', 
+                                  docs = docs, 
+                                  n_clusters = n_clusters, 
+                                  topic_representations = topic_representations)
+```
 
 To use the model, refer to `SSBM/ssbm.py`
