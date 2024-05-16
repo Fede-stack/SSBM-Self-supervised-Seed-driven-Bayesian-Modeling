@@ -37,4 +37,4 @@ predictions_tp = TopicPropagation(model_name = 'all-miniLM-L6-v2',
                                   topic_representations = topic_representations)
 ```
 
-To use the model, refer to `SSBM/ssbm.py`
+To use the models, refer to `SSBM/ssbm.py`
