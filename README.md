@@ -41,6 +41,8 @@ To use the models, refer to `SSBM/ssbm.py`
 
 # Reference 
 
+To cite our article, refer to:
+
 ```bibtex
 @article{ravenda2024self,
   title={A self-supervised seed-driven approach to topic modelling and clustering},
