@@ -38,3 +38,16 @@ predictions_tp = TopicPropagation(model_name = 'all-miniLM-L6-v2',
 ```
 
 To use the models, refer to `SSBM/ssbm.py`
+
+# Reference 
+
+```bibtex
+@article{ravenda2024self,
+  title={A self-supervised seed-driven approach to topic modelling and clustering},
+  author={Ravenda, Federico and Bahrainian, Seyed Ali and Raballo, Andrea and Mira, Antonietta and Crestani, Fabio},
+  journal={Journal of Intelligent Information Systems},
+  pages={1--21},
+  year={2024},
+  publisher={Springer}
+}
+``
