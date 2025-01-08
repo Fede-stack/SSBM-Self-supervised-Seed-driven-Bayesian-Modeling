@@ -50,4 +50,4 @@ To use the models, refer to `SSBM/ssbm.py`
   year={2024},
   publisher={Springer}
 }
-``
+```
